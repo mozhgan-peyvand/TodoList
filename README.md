@@ -1,5 +1,7 @@
 # TodoList
+
 # 3rd-Party Libraries
+
 Used material for designing layouts and UI.
 
 Used viewmodel-ktx for keeping the state of fragments during configuration changes.
@@ -36,7 +38,8 @@ Used kotlinx-datetime for dealing with date and time (please check out AppReposi
 
 Used Kotlin-DSL for implementing Gradle configurations.
 
-# Optional features:
+# Optional features
+
 Night/Day mode: On HomeFragment, there is a button in the toolbar to change the theme to night and day mode. The composition of SharedPreferences and Flow has been used to implement this feature. Learn more about the implementation on AppPreferences.
 Architecture:
 I decided to develop this app by using MVVM clean architecture. And here are my top 3 reasons for using it:
